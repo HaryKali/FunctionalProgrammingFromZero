@@ -3974,3 +3974,376 @@ Exception in thread "pool-12-thread-1" java.lang.InterruptedException
 2026.02.11 21:10:39 INFO  Memory monitor started
 2026.02.11 21:10:39 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
 2026.02.11 21:10:39 INFO  no build target found for C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.11 21:10:42 INFO  no build target found for C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.11 21:10:42 INFO  no build target found for C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.11 21:10:46 WARN  no build target for: C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala
+2026.02.11 21:10:54 INFO  Running List(C:\Users\HaryK\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero)
+2026.02.11 21:10:55 INFO  Attempting to connect to the build server...
+2026.02.11 21:10:55 INFO  Running BSP server List(C:\Users\HaryK\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-envs.json, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero)
+2026.02.11 21:10:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.metals\bsp.trace.json or C:\Users\HaryK\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.11 21:10:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar
+2026.02.11 21:10:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar
+2026.02.11 21:10:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.jar
+2026.02.11 21:10:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/eed3si9n/gigahorse-apache-http_2.12/0.9.3/gigahorse-apache-http_2.12-0.9.3.jar
+2026.02.11 21:10:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.jar
+2026.02.11 21:10:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2026.02.11 21:10:58 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/eed3si9n/gigahorse-apache-http_2.12/0.9.3/gigahorse-apache-http_2.12-0.9.3.jar
+2026.02.11 21:10:58 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
+2026.02.11 21:10:58 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.13.5.2/jsoniter-scala-core_2.12-2.13.5.2.jar
+2026.02.11 21:10:58 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar
+2026.02.11 21:10:58 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar
+2026.02.11 21:10:58 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar
+2026.02.11 21:11:04 INFO  BSP server: Still downloading:
+2026.02.11 21:11:04 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.jar (79.73 %, 441119 / 553267)
+2026.02.11 21:11:04 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (8.34 %, 916847 / 10995131)
+2026.02.11 21:11:04 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:11:04 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:11:04 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar (0.00 %, 0 / 3340031)
+2026.02.11 21:11:04 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar (0.00 %, 0 / 3243337)
+2026.02.11 21:11:04 INFO  BSP server: 
+2026.02.11 21:11:07 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/github/mwiede/jsch/0.2.23/jsch-0.2.23.jar
+2026.02.11 21:11:07 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2026.02.11 21:11:12 INFO  BSP server: (watching) Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar
+2026.02.11 21:11:12 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.jar
+2026.02.11 21:11:16 WARN  no build target for: C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala
+2026.02.11 21:11:16 INFO  no build target found for C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.11 21:11:17 INFO  BSP server: (watching) Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/io/github/alexarchambault/bleep/jsonrpc4s_2.12/0.1.1/jsonrpc4s_2.12-0.1.1.jar
+2026.02.11 21:11:17 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.11.0/zinc-persist_2.12-1.11.0.jar
+2026.02.11 21:11:22 INFO  BSP server: Still downloading:
+2026.02.11 21:11:22 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.jar (52.33 %, 163112 / 311716)
+2026.02.11 21:11:22 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (12.36 %, 1359215 / 10995131)
+2026.02.11 21:11:22 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:11:22 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:11:22 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar (0.00 %, 0 / 3340031)
+2026.02.11 21:11:22 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.11.0/zinc-persist_2.12-1.11.0.jar (0.00 %, 0 / 366271)
+2026.02.11 21:11:22 INFO  BSP server: 
+2026.02.11 21:11:24 WARN  no build target for: C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala
+2026.02.11 21:11:27 INFO  BSP server: (watching) Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/zinc-persist_2.12/1.11.0/zinc-persist_2.12-1.11.0.jar
+2026.02.11 21:11:27 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar
+2026.02.11 21:11:30 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/modules/scala-collection-compat_2.12/2.13.0/scala-collection-compat_2.12-2.13.0.jar
+2026.02.11 21:11:30 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar
+2026.02.11 21:11:35 INFO  BSP server: Still downloading:
+2026.02.11 21:11:35 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (15.34 %, 1686895 / 10995131)
+2026.02.11 21:11:35 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar (11.51 %, 113994 / 990527)
+2026.02.11 21:11:35 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar (7.17 %, 97639 / 1361845)
+2026.02.11 21:11:35 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:11:35 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:11:35 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar (0.00 %, 0 / 3340031)
+2026.02.11 21:11:35 INFO  BSP server: 
+2026.02.11 21:11:40 INFO  BSP server: Still downloading:
+2026.02.11 21:11:40 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar (18.12 %, 179530 / 990527)
+2026.02.11 21:11:40 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (16.68 %, 1834351 / 10995131)
+2026.02.11 21:11:40 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar (11.98 %, 163175 / 1361845)
+2026.02.11 21:11:40 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:11:40 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:11:40 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar (0.00 %, 0 / 3340031)
+2026.02.11 21:11:40 INFO  BSP server: 
+2026.02.11 21:11:45 INFO  BSP server: Still downloading:
+2026.02.11 21:11:45 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar (29.70 %, 294218 / 990527)
+2026.02.11 21:11:45 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar (19.20 %, 261479 / 1361845)
+2026.02.11 21:11:45 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (18.02 %, 1981807 / 10995131)
+2026.02.11 21:11:45 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:11:45 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:11:45 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar (0.00 %, 0 / 3340031)
+2026.02.11 21:11:45 INFO  BSP server: 
+2026.02.11 21:11:51 INFO  BSP server: Still downloading:
+2026.02.11 21:11:51 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar (41.28 %, 408906 / 990527)
+2026.02.11 21:11:51 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar (27.62 %, 376167 / 1361845)
+2026.02.11 21:11:51 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (19.07 %, 2096495 / 10995131)
+2026.02.11 21:11:51 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:11:51 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:11:51 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar (0.00 %, 0 / 3340031)
+2026.02.11 21:11:51 INFO  BSP server: 
+2026.02.11 21:11:55 ERROR Timeout waiting for 'build/initialize' response
+2026.02.11 21:11:55 WARN  Retrying connection to the build server scala-cli
+2026.02.11 21:11:55 INFO  Running BSP server List(C:\Users\HaryK\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-envs.json, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero)
+2026.02.11 21:11:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.metals\bsp.trace.json or C:\Users\HaryK\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.11 21:11:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar
+2026.02.11 21:11:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar
+2026.02.11 21:11:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar
+2026.02.11 21:11:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar
+2026.02.11 21:11:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar
+2026.02.11 21:11:55 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.jar
+2026.02.11 21:11:58 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.jar
+2026.02.11 21:11:58 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2026.02.11 21:12:03 INFO  BSP server: Still downloading:
+2026.02.11 21:12:03 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar (66.07 %, 899746 / 1361845)
+2026.02.11 21:12:03 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar (66.02 %, 653929 / 990527)
+2026.02.11 21:12:03 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:12:03 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:12:03 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar (0.00 %, 0 / 2002994)
+2026.02.11 21:12:03 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:12:03 INFO  BSP server: 
+2026.02.11 21:12:08 INFO  BSP server: Still downloading:
+2026.02.11 21:12:08 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar (79.25 %, 785001 / 990527)
+2026.02.11 21:12:08 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar (73.29 %, 998050 / 1361845)
+2026.02.11 21:12:08 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:12:08 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:12:08 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar (0.00 %, 0 / 2002994)
+2026.02.11 21:12:08 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:12:08 INFO  BSP server: 
+2026.02.11 21:12:14 INFO  BSP server: Still downloading:
+2026.02.11 21:12:14 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar (95.79 %, 948841 / 990527)
+2026.02.11 21:12:14 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar (78.10 %, 1063586 / 1361845)
+2026.02.11 21:12:14 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:12:14 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:12:14 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar (0.00 %, 0 / 2002994)
+2026.02.11 21:12:14 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:12:14 INFO  BSP server: 
+2026.02.11 21:12:16 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar
+2026.02.11 21:12:16 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.6/util-interface-1.11.6.jar
+2026.02.11 21:12:17 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.6/util-interface-1.11.6.jar
+2026.02.11 21:12:17 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar
+2026.02.11 21:12:17 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar
+2026.02.11 21:12:17 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.jar
+2026.02.11 21:12:17 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.jar
+2026.02.11 21:12:17 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.jar.sha1
+2026.02.11 21:12:17 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/io/zipkin/reporter2/zipkin-reporter-brave/2.17.2/zipkin-reporter-brave-2.17.2.jar.sha1
+2026.02.11 21:12:17 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar.sha1
+2026.02.11 21:12:17 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/ch/epfl/scala/scala-debug-adapter_2.12/4.2.8/scala-debug-adapter_2.12-4.2.8.jar.sha1
+2026.02.11 21:12:17 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.6/util-interface-1.11.6.jar.sha1
+2026.02.11 21:12:18 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-sbt/util-interface/1.11.6/util-interface-1.11.6.jar.sha1
+2026.02.11 21:12:18 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar.sha1
+2026.02.11 21:12:18 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/typelevel/cats-kernel_2.12/2.1.1/cats-kernel_2.12-2.1.1.jar.sha1
+2026.02.11 21:12:18 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.jar.sha1
+2026.02.11 21:12:18 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-catnap_2.12/3.2.0/monix-catnap_2.12-3.2.0.jar.sha1
+2026.02.11 21:12:24 INFO  BSP server: Still downloading:
+2026.02.11 21:12:24 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar (97.35 %, 1325730 / 1361845)
+2026.02.11 21:12:24 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:12:24 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:12:24 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar (0.00 %, 0 / 2002994)
+2026.02.11 21:12:24 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:12:24 INFO  BSP server: 
+2026.02.11 21:12:24 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar
+2026.02.11 21:12:24 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar.sha1
+2026.02.11 21:12:25 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/io/monix/monix-reactive_2.12/3.2.0/monix-reactive_2.12-3.2.0.jar.sha1
+2026.02.11 21:12:31 INFO  BSP server: Still downloading:
+2026.02.11 21:12:31 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:12:31 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:12:31 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar (0.00 %, 0 / 2002994)
+2026.02.11 21:12:31 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:12:31 INFO  BSP server: 
+2026.02.11 21:12:37 INFO  BSP server: Still downloading:
+2026.02.11 21:12:37 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:12:37 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:12:37 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar (0.00 %, 0 / 2002994)
+2026.02.11 21:12:37 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:12:37 INFO  BSP server: 
+2026.02.11 21:12:43 INFO  BSP server: Still downloading:
+2026.02.11 21:12:43 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:12:43 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:12:43 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar (0.00 %, 0 / 2002994)
+2026.02.11 21:12:43 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:12:43 INFO  BSP server: 
+2026.02.11 21:12:49 INFO  BSP server: Still downloading:
+2026.02.11 21:12:49 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:12:49 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:12:49 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar (0.00 %, 0 / 2002994)
+2026.02.11 21:12:49 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:12:49 INFO  BSP server: 
+2026.02.11 21:12:54 INFO  BSP server: Still downloading:
+2026.02.11 21:12:54 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:12:54 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:12:54 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar (0.00 %, 0 / 2002994)
+2026.02.11 21:12:54 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:12:54 INFO  BSP server: 
+2026.02.11 21:12:55 ERROR Timeout waiting for 'build/initialize' response
+2026.02.11 21:12:55 WARN  Retrying connection to the build server scala-cli
+2026.02.11 21:12:55 INFO  Running BSP server List(C:\Users\HaryK\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-envs.json, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero)
+2026.02.11 21:12:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.metals\bsp.trace.json or C:\Users\HaryK\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.11 21:12:56 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar
+2026.02.11 21:12:56 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar
+2026.02.11 21:12:56 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar
+2026.02.11 21:12:56 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2026.02.11 21:12:57 INFO  BSP server: (watching) Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar
+2026.02.11 21:12:57 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar.sha1
+2026.02.11 21:12:57 INFO  BSP server: (watching) Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar.sha1
+2026.02.11 21:13:03 INFO  BSP server: Still downloading:
+2026.02.11 21:13:03 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:13:03 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:13:03 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:13:03 INFO  BSP server: 
+2026.02.11 21:13:09 INFO  BSP server: Still downloading:
+2026.02.11 21:13:09 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:13:09 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:13:09 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:13:09 INFO  BSP server: 
+2026.02.11 21:13:14 INFO  BSP server: Still downloading:
+2026.02.11 21:13:14 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:13:14 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:13:14 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:13:14 INFO  BSP server: 
+2026.02.11 21:13:20 INFO  BSP server: Still downloading:
+2026.02.11 21:13:20 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar (0.00 %, 0 / 9831106)
+2026.02.11 21:13:20 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:13:20 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:13:20 INFO  BSP server: 
+2026.02.11 21:13:22 INFO  no build target found for C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.11 21:13:23 INFO  BSP server: (watching) Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalaz/scalaz-core_2.12/7.3.8/scalaz-core_2.12-7.3.8.jar
+2026.02.11 21:13:28 INFO  BSP server: Still downloading:
+2026.02.11 21:13:28 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:13:28 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:13:28 INFO  BSP server: 
+2026.02.11 21:13:33 INFO  BSP server: Still downloading:
+2026.02.11 21:13:33 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:13:33 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:13:33 INFO  BSP server: 
+2026.02.11 21:13:39 INFO  BSP server: Still downloading:
+2026.02.11 21:13:39 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:13:39 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:13:39 INFO  BSP server: 
+2026.02.11 21:13:45 INFO  BSP server: Still downloading:
+2026.02.11 21:13:45 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:13:45 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:13:45 INFO  BSP server: 
+2026.02.11 21:13:48 WARN  no build target for: C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\build.sbt
+2026.02.11 21:13:48 INFO  no build target found for C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\build.sbt. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.11 21:13:50 INFO  BSP server: Still downloading:
+2026.02.11 21:13:50 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:13:50 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:13:50 INFO  BSP server: 
+2026.02.11 21:13:55 ERROR Timeout waiting for 'build/initialize' response
+2026.02.11 21:13:55 WARN  Retrying connection to the build server scala-cli
+2026.02.11 21:13:55 INFO  Running BSP server List(C:\Users\HaryK\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-envs.json, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero)
+2026.02.11 21:13:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.metals\bsp.trace.json or C:\Users\HaryK\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.11 21:13:56 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2026.02.11 21:13:56 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar
+2026.02.11 21:14:01 INFO  BSP server: Still downloading:
+2026.02.11 21:14:01 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:14:01 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:14:01 INFO  BSP server: 
+2026.02.11 21:14:07 INFO  BSP server: Still downloading:
+2026.02.11 21:14:07 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:14:07 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:14:07 INFO  BSP server: 
+2026.02.11 21:14:12 INFO  BSP server: Still downloading:
+2026.02.11 21:14:12 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:14:12 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:14:12 INFO  BSP server: 
+2026.02.11 21:14:18 INFO  BSP server: Still downloading:
+2026.02.11 21:14:18 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:14:18 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:14:18 INFO  BSP server: 
+2026.02.11 21:14:23 INFO  BSP server: Still downloading:
+2026.02.11 21:14:23 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:14:23 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:14:23 INFO  BSP server: 
+2026.02.11 21:14:29 INFO  BSP server: Still downloading:
+2026.02.11 21:14:29 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:14:29 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar (0.00 %, 0 / 10571542)
+2026.02.11 21:14:29 INFO  BSP server: 
+2026.02.11 21:14:31 INFO  BSP server: (watching) Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar
+2026.02.11 21:14:31 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar.sha1
+2026.02.11 21:14:31 INFO  BSP server: (watching) Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scalameta/trees_2.12/4.13.8/trees_2.12-4.13.8.jar.sha1
+2026.02.11 21:14:37 INFO  BSP server: Still downloading:
+2026.02.11 21:14:37 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:14:37 INFO  BSP server: 
+2026.02.11 21:14:43 INFO  BSP server: Still downloading:
+2026.02.11 21:14:43 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:14:43 INFO  BSP server: 
+2026.02.11 21:14:49 INFO  BSP server: Still downloading:
+2026.02.11 21:14:49 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:14:49 INFO  BSP server: 
+2026.02.11 21:14:55 ERROR Timeout waiting for 'build/initialize' response
+2026.02.11 21:14:55 WARN  Retrying connection to the build server scala-cli
+2026.02.11 21:14:55 INFO  Running BSP server List(C:\Users\HaryK\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-envs.json, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero)
+2026.02.11 21:14:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.metals\bsp.trace.json or C:\Users\HaryK\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.11 21:14:56 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2026.02.11 21:15:01 INFO  BSP server: Still downloading:
+2026.02.11 21:15:01 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:01 INFO  BSP server: 
+2026.02.11 21:15:07 INFO  BSP server: Still downloading:
+2026.02.11 21:15:07 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:07 INFO  BSP server: 
+2026.02.11 21:15:12 INFO  BSP server: Still downloading:
+2026.02.11 21:15:12 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:12 INFO  BSP server: 
+2026.02.11 21:15:17 INFO  BSP server: Still downloading:
+2026.02.11 21:15:17 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:17 INFO  BSP server: 
+2026.02.11 21:15:22 INFO  BSP server: Still downloading:
+2026.02.11 21:15:22 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:22 INFO  BSP server: 
+2026.02.11 21:15:27 INFO  BSP server: Still downloading:
+2026.02.11 21:15:27 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:27 INFO  BSP server: 
+2026.02.11 21:15:33 INFO  BSP server: Still downloading:
+2026.02.11 21:15:33 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:33 INFO  BSP server: 
+2026.02.11 21:15:38 INFO  BSP server: Still downloading:
+2026.02.11 21:15:38 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:38 INFO  BSP server: 
+2026.02.11 21:15:43 INFO  BSP server: Still downloading:
+2026.02.11 21:15:43 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:43 INFO  BSP server: 
+2026.02.11 21:15:49 INFO  BSP server: Still downloading:
+2026.02.11 21:15:49 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:15:49 INFO  BSP server: 
+2026.02.11 21:15:55 ERROR Timeout waiting for 'build/initialize' response
+2026.02.11 21:15:55 WARN  Retrying connection to the build server scala-cli
+2026.02.11 21:15:55 INFO  Running BSP server List(C:\Users\HaryK\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-envs.json, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero)
+2026.02.11 21:15:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.metals\bsp.trace.json or C:\Users\HaryK\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.11 21:15:56 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2026.02.11 21:16:01 INFO  BSP server: Still downloading:
+2026.02.11 21:16:01 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:16:01 INFO  BSP server: 
+2026.02.11 21:16:06 INFO  BSP server: Still downloading:
+2026.02.11 21:16:06 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:16:06 INFO  BSP server: 
+2026.02.11 21:16:12 INFO  BSP server: Still downloading:
+2026.02.11 21:16:12 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:16:12 INFO  BSP server: 
+2026.02.11 21:16:17 INFO  BSP server: Still downloading:
+2026.02.11 21:16:17 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:16:17 INFO  BSP server: 
+2026.02.11 21:16:23 INFO  BSP server: Still downloading:
+2026.02.11 21:16:23 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:16:23 INFO  BSP server: 
+2026.02.11 21:16:28 INFO  BSP server: Still downloading:
+2026.02.11 21:16:28 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:16:28 INFO  BSP server: 
+2026.02.11 21:16:34 INFO  BSP server: Still downloading:
+2026.02.11 21:16:34 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:16:34 INFO  BSP server: 
+2026.02.11 21:16:39 INFO  no build target found for C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.11 21:16:39 INFO  no build target found for C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.11 21:16:40 INFO  BSP server: Still downloading:
+2026.02.11 21:16:40 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:16:40 INFO  BSP server: 
+2026.02.11 21:16:42 WARN  no build target for: C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala
+2026.02.11 21:16:46 INFO  BSP server: Still downloading:
+2026.02.11 21:16:46 INFO  BSP server: https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar (0.00 %, 0 / 10995131)
+2026.02.11 21:16:46 INFO  BSP server: 
+2026.02.11 21:16:47 WARN  no build target for: C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala
+2026.02.11 21:16:48 INFO  Shutting down server
+2026.02.11 21:16:48 INFO  Memory monitor stopped
+2026.02.11 21:16:48 INFO  shutting down Metals
+2026.02.11 21:16:48 INFO  Exiting server
+2026.02.12 16:01:40 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\HaryK\Desktop\FunctionalProgramingFromZero' for client Visual Studio Code 1.109.2.
+2026.02.12 16:01:40 INFO  Memory monitor started
+2026.02.12 16:01:40 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2月 12, 2026 4:01:41 下午 org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+信息: Unsupported notification method: $/setTrace
+2026.02.12 16:01:41 INFO  Attempting to connect to the build server...
+2026.02.12 16:01:41 INFO  Running BSP server List(C:\Users\HaryK\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.scala-build\ide-envs.json, C:\Users\HaryK\Desktop\FunctionalProgramingFromZero)
+2026.02.12 16:01:41 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\.metals\bsp.trace.json or C:\Users\HaryK\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.02.12 16:01:43 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2026.02.12 16:01:46 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar
+2026.02.12 16:01:46 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar.sha1
+2026.02.12 16:01:46 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala-compiler/2.12.20/scala-compiler-2.12.20.jar.sha1
+2026.02.12 16:01:46 INFO  BSP server: Starting compilation server
+2026.02.12 16:01:48 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.1/scala3-sbt-bridge-3.8.1.pom
+2026.02.12 16:01:48 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.1/scala3-sbt-bridge-3.8.1.pom
+2026.02.12 16:01:48 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-repl_3/3.8.1/scala3-repl_3-3.8.1.pom
+2026.02.12 16:01:48 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-repl_3/3.8.1/scala3-repl_3-3.8.1.pom
+2026.02.12 16:01:49 WARN  no build target for: C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala
+2026.02.12 16:01:49 INFO  no build target found for C:\Users\HaryK\Desktop\FunctionalProgramingFromZero\CH1\WordScope.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.02.12 16:01:49 INFO  Shutting down server
+2026.02.12 16:01:49 INFO  Memory monitor stopped
+2026.02.12 16:01:49 INFO  shutting down Metals
+2026.02.12 16:01:48 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.1/scala3-sbt-bridge-3.8.1.jar
+2026.02.12 16:01:48 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-repl_3/3.8.1/scala3-repl_3-3.8.1.jar
+2026.02.12 16:01:49 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.1/scala3-sbt-bridge-3.8.1.jar
+2026.02.12 16:01:49 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.1/scala3-sbt-bridge-3.8.1.jar.sha1
+2026.02.12 16:01:49 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.8.1/scala3-sbt-bridge-3.8.1.jar.sha1
+2026.02.12 16:01:51 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
