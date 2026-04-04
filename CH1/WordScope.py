@@ -9,6 +9,7 @@ def calcuateSocre(voc):
 
 def calcuateSocretell(voc):
     return len(voc.replace("a",""))
+    return len(voc.re)
 
 
 for voc in voc_list:
